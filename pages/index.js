@@ -14,7 +14,8 @@ function HomePage(props) {
                     <li key={product.id}>
                         <Link href={`/${product.id}`}>{product.title}</Link>
                     </li>
-                ))}
+                )
+                )}
             </ul>
         </div>
     )
